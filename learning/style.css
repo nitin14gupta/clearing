@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'New Amsterdam';
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+.page1{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(62, 111, 111);
+}
+
+.page2{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(192, 67, 177);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.page3{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(101, 194, 194);
+}
+
+.page2 img{
+    width: 600px;
+    height: 500px;
+    object-fit: cover;
+    object-position: bottom;
+}
